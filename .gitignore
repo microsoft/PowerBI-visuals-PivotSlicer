@@ -1,0 +1,9 @@
+node_modules/
+dist/
+wip/
+.api/
+.vscode/
+.tmp/
+.npmignore
+*-debug.log
+*-error.log

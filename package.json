@@ -1,0 +1,57 @@
+{
+  "name": "@essex/powerbi-visual-pivot-slicer",
+  "displayName": "Pivot Slicer",
+  "description": "Pivot Slicer provides a unified 'list of lists' approach to viewing, navigating, and slicing data. While regular slicers act on a single data dimension, Pivot Slicer enables dynamic pivoting over any combination of categorical data types, numerical data attributes, and linked data items. It can be used to create a wide range of slicers for different purposes, including stacking multiple slicers in a single compact visual, exploring data rankings resulting from weighted combinations of numerical attributes, and navigating the link structure of item hierarchies and networks. Items of interest can be pinned from any view for systematic comparison of atttibute values, link weights and linked items.",
+  "private": true,
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "src/visual.ts",
+  "scripts": {
+    "clean": "rimraf dist .tmp",
+    "install-certificate": "essex-powerbi-visual-scripts install-certificate",
+    "package": "cross-env NODE_ENV=production essex-powerbi-visual-scripts package",
+    "start": "essex-powerbi-visual-scripts start"
+  },
+  "author": {
+    "name": "Microsoft (experimental)",
+    "email": "msrvizsupport@microsoft.com"
+  },
+  "dependencies": {
+    "@types/react": "16.0.38",
+    "@types/react-dom": "16.0.4",
+    "array-from": "^2.1.1",
+    "autobind-decorator": "^2.1.0",
+    "es6-map": "^0.1.5",
+    "es6-set": "^0.1.5",
+    "powerbi-models": "1.0.3",
+    "powerbi-visuals-tools": "^1.11.2",
+    "powerbi-visuals-utils-dataviewutils": "1.4.1",
+    "powerbi-visuals-utils-interactivityutils": "^3.2.0",
+    "powerbi-visuals-utils-typeutils": "^1.1.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  },
+  "devDependencies": {
+    "@essex/powerbi-visual-scripts": "^2.0.12",
+    "cross-env": "^5.1.4",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.9.2"
+  },
+  "pbiviz": {
+    "visual": {
+      "name": "pivotSlicer",
+      "description": "Pivot Slicer provides a unified 'list of lists' approach to viewing, navigating, and slicing data.",
+      "displayName": "Pivot Slicer",
+      "guid": "pivotSlicer41E30F8C22FE4E32A8D40848A54322CF",
+      "visualClassName": "Visual",
+      "supportUrl": "",
+      "gitHubUrl": ""
+    },
+    "apiVersion": "1.11.0",
+    "assets": {
+      "icon": "assets/icon.png"
+    },
+    "style": "style/style.css"
+  }
+}
