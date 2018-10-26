@@ -4,7 +4,7 @@
   "description": "Pivot Slicer provides a unified 'list of lists' approach to viewing, navigating, and slicing data. While regular slicers act on a single data dimension, Pivot Slicer enables dynamic pivoting over any combination of categorical data types, numerical data attributes, and linked data items. It can be used to create a wide range of slicers for different purposes, including stacking multiple slicers in a single compact visual, exploring data rankings resulting from weighted combinations of numerical attributes, and navigating the link structure of item hierarchies and networks. Items of interest can be pinned from any view for systematic comparison of atttibute values, link weights and linked items.",
   "private": true,
   "version": "1.0.0",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "src/visual.ts",
   "scripts": {
     "clean": "rimraf dist .tmp",
